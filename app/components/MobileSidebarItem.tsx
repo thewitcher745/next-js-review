@@ -1,8 +1,10 @@
 'use client'
 
-import {ElementType, FC, useEffect, useState} from 'react';
+import {FC, useState} from 'react';
+import Link from "next/link";
 
 import {SidebarPath} from "@/app/constants";
+
 
 interface SidebarItem extends SidebarPath {
     index: number
@@ -38,9 +40,9 @@ const MobileSidebarItem: FC<SidebarItem> = ({index, ...path}: SidebarItem) => {
                     <div className='flex flex-col gap-2 pt-4'>
                         {path.subItems?.map(
                             (subPath, subIndex) => (
-                                <a key={subIndex}
-                                   href={subPath.path}
-                                   className='text-white hover:text-orange-500 pl-4'>{subPath.pathName}</a>
+                                <Link key={subIndex}
+                                      href={subPath.path}
+                                      className='text-white hover:text-orange-500 pl-4'>{subPath.pathName}</Link>
                             )
                         )}
                     </div>
