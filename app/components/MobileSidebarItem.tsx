@@ -24,9 +24,9 @@ const MobileSidebarItem: FC<SidebarItem> = ({index, ...path}: SidebarItem) => {
             className='flex flex-col justify-between align-middle hover:bg-gray-600 p-4 transition duration-200'>
 
             <div className='flex justify-between'>
-                <a key={index}
+                <Link key={index}
                    href={path.path}
-                   className='text-white hover:text-orange-500'>{path.pathName}</a>
+                   className='text-white hover:text-orange-500'>{path.pathName}</Link>
 
                 {(isSubmenuOpen && path.openMenuIcon) ?
                     <path.openMenuIcon onClick={toggleSubmenu}
