@@ -24,7 +24,7 @@ const MobileSidebar: FC<Sidebar> = ({isSidebarOpen, closeSidebar}: Sidebar) => {
                 <nav className='flex flex-col gap-2'>
                     {SIDEBAR_PATHS.map(
                         (path: SidebarPath, index: number) => (
-                            <MobileSidebarItem index={index} closeSidebar={closeSidebar} {...path}/>
+                            <MobileSidebarItem key={index} closeSidebar={closeSidebar} {...path}/>
                         )
                     )
                     }

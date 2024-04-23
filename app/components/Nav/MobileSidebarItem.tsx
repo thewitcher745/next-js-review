@@ -26,7 +26,7 @@ const childVariants = {
     exit: {y: '-100%', opacity: 0},
 };
 
-const MobileSidebarItem: FC<SidebarItem> = ({index, closeSidebar, ...path}: SidebarItem) => {
+const MobileSidebarItem: FC<SidebarItem> = ({closeSidebar, ...path}: SidebarItem) => {
     const [isSubmenuOpen, setIsSubmenuOpen] = useState(false)
 
     function toggleSubmenu() {
@@ -40,8 +40,7 @@ const MobileSidebarItem: FC<SidebarItem> = ({index, closeSidebar, ...path}: Side
             className='flex flex-col justify-between align-middle hover:bg-gray-600 p-4 transition duration-200'>
 
             <div className='flex justify-between'>
-                <Link key={index}
-                      href={path.path}
+                <Link href={path.path}
                       className='text-white hover:text-orange-500'
                       onClick={closeSidebar}>
                     {path.pathName}
