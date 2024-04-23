@@ -9,12 +9,11 @@ interface PropsType {
     description: string
 }
 
-const ReviewGameCard: FC<PropsType> = ({gameName, imgFilename, imgAlt, description}: PropsType) => {
+const ReviewGameCard: FC<PropsType> = ({gameName, imgAlt, description}: PropsType) => {
     return (
         <Link href={`reviews/${imgAlt}`}>
             <div className='flex sm:gap-4 border-2 flex-col sm:flex-row h-70'>
-                <div className='flex sm:flex-shrink-0 overflow-hidden border-4 border-amber-500 w-12/12 sm:w-60'
-                style={{aspectRatio: 8/5}}>
+                <div className='flex sm:flex-shrink-0 overflow-hidden border-4 border-amber-500 w-12/12 sm:w-60 aspect-[8/5]'>
                     {/*<img src={`/images/${imgFilename}`}*/}
                     {/*     alt={imgAlt} className='h-full w-auto'/>*/}
                 </div>
