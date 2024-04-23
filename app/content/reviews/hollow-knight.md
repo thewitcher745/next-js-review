@@ -1,7 +1,3 @@
-# Hollow Knight Review
-
-**Game Name:** Hollow Knight
-
 **Description:** An atmospheric adventure through a surreal, bug-infested world.
 
 Hollow Knight is a beautifully hand-drawn, action-adventure game set in the vast interconnected underground kingdom of Hallownest. The game offers a mix of challenging combat and exploration, with a strong emphasis on atmospheric storytelling.

@@ -1,8 +1,3 @@
-
-# Celeste Review
-
-**Game Name:** Celeste
-
 **Description:** A narrative-driven, single-player adventure like mom used to make.
 
 Celeste is a platforming game where you play as a young girl named Madeline as she makes her way up a mountain while avoiding various deadly obstacles. Celeste is known for its challenging gameplay, beautiful pixel art, and an amazing soundtrack.

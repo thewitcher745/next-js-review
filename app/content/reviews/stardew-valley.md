@@ -1,8 +1,3 @@
-# Stardew Valley Review
-
-
-**Game Name:** Stardew Valley
-
 **Description:** A charming country life RPG!
 
 Stardew Valley is a farming simulation game that offers a unique blend of farming, exploration, combat, and relationship-building. You've inherited your grandfather's old farm plot in Stardew Valley and it's up to you to restore it to its former glory.

@@ -1,8 +1,3 @@
-
-# Undertale Review
-
-**Game Name:** Undertale
-
 **Description:** A unique RPG, where you don't have to destroy anyone.
 
 Undertale is a role-playing game that uses a top-down perspective. In the game, players control a child and complete objectives in order to progress through the story. Players explore an underground world filled with towns and caves, and are required to solve numerous puzzles on their journey.

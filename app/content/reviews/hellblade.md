@@ -1,8 +1,3 @@
-
-# Hellblade Review
-
-**Game Name:** Hellblade
-
 **Description:** A dark fantasy action-adventure game that explores themes of mental illness.
 
 Hellblade: Senua's Sacrifice is a dark fantasy action-adventure game played from a third-person perspective. The game is focused on Senua's (the protagonist) perspective, as she embarks on a very personal journey through a hellish underworld.
