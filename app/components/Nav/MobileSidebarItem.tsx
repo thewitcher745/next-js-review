@@ -8,7 +8,6 @@ import {SidebarPath} from "@/app/content/constants";
 
 
 interface SidebarItem extends SidebarPath {
-    index: number,
     closeSidebar: () => void
 }
 
