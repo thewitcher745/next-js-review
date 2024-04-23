@@ -2,7 +2,7 @@ import {FC, ReactNode} from "react";
 import Link from "next/link";
 
 import './globals.css'
-import NavBar from "@/app/components/NavBar";
+import NavBar from "@/app/components/Nav/NavBar";
 import {exo2, orbitron} from "@/app/fonts";
 
 

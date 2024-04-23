@@ -3,7 +3,7 @@
 import Link from "next/link";
 import {FiAlignJustify} from "react-icons/fi";
 import {useState} from "react";
-import MobileSidebar from "@/app/components/MobileSidebar";
+import MobileSidebar from "@/app/components/Nav/MobileSidebar";
 
 export default function NavBar() {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false)

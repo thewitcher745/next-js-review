@@ -1,7 +1,7 @@
 import {FC} from 'react';
 
-import {SIDEBAR_PATHS, SidebarPath} from "@/app/constants";
-import MobileSidebarItem from "@/app/components/MobileSidebarItem";
+import {SIDEBAR_PATHS, SidebarPath} from "@/app/content/constants";
+import MobileSidebarItem from "@/app/components/Nav/MobileSidebarItem";
 
 interface Sidebar {
     isSidebarOpen: boolean,
@@ -24,7 +24,7 @@ const MobileSidebar: FC<Sidebar> = ({isSidebarOpen, closeSidebar}: Sidebar) => {
                 <nav className='flex flex-col gap-2'>
                     {SIDEBAR_PATHS.map(
                         (path: SidebarPath, index: number) => (
-                            <MobileSidebarItem index={index} {...path}/>
+                            <MobileSidebarItem index={index} closeSidebar={closeSidebar} {...path}/>
                         )
                     )
                     }
