@@ -30,4 +30,10 @@ const GameReview: FC<GameReviewProps> = async ({params}: GameReviewProps) => {
     )
 };
 
+export async function generateStaticParams() {
+    return gameList.map((post) => ({
+        slug: post.gameId,
+    }))
+}
+
 export default GameReview;
