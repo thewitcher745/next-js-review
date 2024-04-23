@@ -1,8 +1,6 @@
 
 # Hellblade Review
 
-![Hellblade](/images/hellblade.jpg)
-
 **Game Name:** Hellblade
 
 **Description:** A dark fantasy action-adventure game that explores themes of mental illness.
